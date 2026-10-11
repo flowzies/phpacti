@@ -34,7 +34,8 @@
                                 <div data-mdb-input-init class="form-outline form-white mb-4 position-relative">
                                     <input type="password" id="typeConfirmPasswordX" class="form-control form-control-lg pe-5" name="confirmpassword" />
                                     <label class="form-label" for="typeConfirmPasswordX">Confirm Password</label>
-                                    <i class="bi bi-eye right-icon" id="togglePassword" style="cursor: pointer; pointer-events: auto;"></i>
+                                    <i class="bi bi-eye right-icon" id="toggleConfirmPassword" style="cursor: pointer; pointer-events: auto;"></i>
+
                                 </div>
 
                                 <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-lg px-5 mt-4" type="submit">Register</button> </form>

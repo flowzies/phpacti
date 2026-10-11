@@ -1,33 +1,23 @@
     <!-- MDBootstrap JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
     <script>
-     $("#togglePassword").click(function() {
-    
+    $("#togglePassword").click(function() {
         let passwordInput = $("#typePasswordX");
-        
-      
         if (passwordInput.attr("type") === "password") {
             passwordInput.attr("type", "text");
-     
             $(this).removeClass("bi-eye").addClass("bi-eye-slash");
         } else {
             passwordInput.attr("type", "password");
-   
             $(this).removeClass("bi-eye-slash").addClass("bi-eye");
         }
     });
-     $("#togglePassword").click(function() {
-    
-        let passwordInput = $("#typeConfirmPasswordX");
-        
-      
-        if (passwordInput.attr("type") === "password") {
-            passwordInput.attr("type", "text");
-     
+    $("#toggleConfirmPassword").click(function() {
+        let confirmInput = $("#typeConfirmPasswordX");
+        if (confirmInput.attr("type") === "password") {
+            confirmInput.attr("type", "text");
             $(this).removeClass("bi-eye").addClass("bi-eye-slash");
         } else {
-            passwordInput.attr("type", "password");
-   
+            confirmInput.attr("type", "password");
             $(this).removeClass("bi-eye-slash").addClass("bi-eye");
         }
     });
@@ -110,7 +100,11 @@
 
 
                     }
+                },
+
+                submitHandler: function(form) {
+                    window.location.href = "login.php";
                 }
-            }); 
+            });
         });
     </script>

@@ -10,7 +10,7 @@
 <?php include 'phpfiles/firstsection.php' ?>
 <?php include 'phpfiles/sectionmovie.php' ?>
 <?php include 'phpfiles/aboutandauthor.php' ?>
-<?php include 'phpfiles/mdboostrap.php' ?>
+<?php include 'phpfiles/mdbootstrap.php' ?>
 
 
 

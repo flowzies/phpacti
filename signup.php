@@ -7,8 +7,8 @@
 <body>
 
 
-<? include 'signupphpfile/firstsection.php' ?>
-<? include 'signupphpfile/script.php' ?>
+<?php include 'signupphpfile/firstsection.php' ?>
+<?php include 'signupphpfile/script.php' ?>
 
 
 </body>

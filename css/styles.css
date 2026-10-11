@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .hero-intro::before,
@@ -69,7 +68,6 @@ h1, h2, h3, h4, h5, h6,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .hero-movies::before,
@@ -91,7 +89,6 @@ h1, h2, h3, h4, h5, h6,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .hero-about::before,

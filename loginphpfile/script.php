@@ -64,7 +64,7 @@
                 if (enteredUsername === dummyAccount.username && enteredPassword === dummyAccount.password) {
 
                     failedAttempts = 0; 
-                    window.location.href = "index.html";
+                    window.location.href = "index.php";
                 } else {
 
                     failedAttempts++; 
